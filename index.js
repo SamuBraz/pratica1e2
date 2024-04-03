@@ -10,9 +10,8 @@ function verificarDados() {
         alert("email invalidado");
         return false;
     }
-    if (senha.length < 8) {
+    else if (senha.length < 8) {
         alert("senha invalidado, deve ter no minimo 7 digitos");
         return false;
-    }
-    return true;
+    }  
 }
